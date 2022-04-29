@@ -37,7 +37,7 @@ namespace MailsConfig
                 message.Body = "HI";
 
                 smtp.Port = 587;
-                //smtp.Host = "210.236.247.59"; //for gmail host  
+                //smtp.Host = "210.236.247.59"; //for gmail host
                 smtp.Host = "smtp.gmail.com";
                 smtp.EnableSsl = true;
                 smtp.UseDefaultCredentials = false;
